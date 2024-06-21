@@ -6,6 +6,7 @@ import Header from "./components/Header/header";
 import About from "./components/about/about";
 import Mode from "./components/mode/mode";
 
+
 function App() {
   return (
     <div className="App">
@@ -13,8 +14,9 @@ function App() {
       <Banner />
       <About/>
       <Mode/>
+   
     </div>
   );
 }
-
+ 
 export default App;
