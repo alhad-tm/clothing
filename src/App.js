@@ -1,10 +1,12 @@
 import "./App.css";
 import "./index.css";
-
+import Header from "./components/header/header"; 
 import Banner from "./components/banner/banner";
-import Header from "./components/Header/header";  
+ 
 import About from "./components/about/about";
-import Mode from "./components/mode/mode";
+
+import Footer from "./components/footer/footer";
+
 
 
 function App() {
@@ -13,10 +15,11 @@ function App() {
       <Header />
       <Banner />
       <About/>
-      <Mode/>
+
+      <Footer/>  
    
     </div>
   );
 }
- 
-export default App;
+   
+export default App;  
