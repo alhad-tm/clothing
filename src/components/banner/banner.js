@@ -4,9 +4,9 @@ import Bg2 from "../../assets/kids-store.jpg";
 
 const Banner = () => {
   return (
-    <div className="banner w-full min-h-screen py-12 flex flex-col">
+    <div className="banner w-full min-h-screen flex flex-col">
       <div style={{ backgroundImage: `url(${Bg1})` }}
-           className="ladies w-full min-h-screen bg-cover bg-center rounded-xl flex items-center justify-start ">
+           className="ladies w-full min-h-screen bg-cover bg-center  flex items-center justify-start ">
 
 <div className="content flex flex-col gap-8 p-4 items-start text-white">
   <span className="uppercase  text-3xl font-bold">live for fashion</span>
@@ -21,7 +21,7 @@ const Banner = () => {
        </div>
 
       <div style={{ backgroundImage: `url(${Bg2})` }}
-           className="ladies w-full min-h-screen bg-cover bg-center rounded-xl flex items-center justify-start ">
+           className="ladies w-full min-h-screen bg-cover bg-center  flex items-center justify-start ">
 
  <div className="content flex flex-col gap-8 p-4 items-end text-[#083344]"> 
   <span className="uppercase  text-3xl font-bold">Playful Perfection</span>
