@@ -92,7 +92,7 @@ const Header = () => {
         <ul className={css.rightlist} onClick={()=>setMenuOpened(false)}>
         {mobile? <div className={css.main}>
           <div className={css.m1}>
-          <Link to="banner" smooth={true}> <span className='font-bold uppercase cursor-pointer'>Milana</span></Link> 
+          <Link to="banner" smooth={true}> <span onClick={()=>setMenuOpened(false)} className='font-bold uppercase cursor-pointer'>Milana</span></Link> 
             </div>
           <div className={css.m2}> 
           <FontAwesomeIcon icon={ faTimes } />

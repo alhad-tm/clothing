@@ -54,6 +54,9 @@ body{
 .subheading{
   @apply italic text-4xl md:text-6xl font-black
 }
+.sub-description{
+  @apply text-base md:text-xl text-left w-11/12 md:w-2/3
+}
 .about-text{
   @apply text-left text-sm md:text-xl leading-6
 }

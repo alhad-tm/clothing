@@ -12,7 +12,7 @@ const Banner = () => {
 <div className="content flex flex-col gap-8 px-4 md:px-8 py-4 items-start text-white text-left">
   <span className="mainheading">live for fashion</span>
   <span className=" subheading">Where every outfit tells a story</span>
-  <span className=" text-xl text-left  w-2/3">
+  <span className="sub-description ">
   Explore Milana for stylish, comfortable ladies' and kids' clothing. Our chic dresses, elegant ladieswear, and adorable kidswear are carefully selected to bring out the
    best in you and your little ones, perfect for any occasion.
   </span>
@@ -28,7 +28,7 @@ const Banner = () => {
  <div className="content flex flex-col gap-8 p-4 items-end text-[#083344] text-right"> 
   <span className="mainheading">Playful Perfection</span>
   <span className="subheading ">Style for Every Smile</span>
-  <span className=" text-xl text-left e w-2/3">
+  <span className=" sub-description">
  Dress your kids in fun and trendy outfits. 
  Our collection blends comfort with the latest trends, so your little ones can enjoy fashion that's as playful as they are.
   </span>
