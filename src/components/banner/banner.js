@@ -5,12 +5,13 @@ import Bg2 from "../../assets/kids-store.jpg";
 const Banner = () => {
   return (
     <div className="banner w-full min-h-screen flex flex-col">
+      {/* first banner */}
       <div style={{ backgroundImage: `url(${Bg1})` }}
            className="ladies w-full min-h-screen bg-cover bg-center  flex items-center justify-start ">
 
-<div className="content flex flex-col gap-8 p-4 items-start text-white">
-  <span className="uppercase  text-3xl font-bold">live for fashion</span>
-  <span className=" italic text-6xl font-black">Where every outfit tells a story</span>
+<div className="content flex flex-col gap-8 px-4 md:px-8 py-4 items-start text-white text-left">
+  <span className="mainheading">live for fashion</span>
+  <span className=" subheading">Where every outfit tells a story</span>
   <span className=" text-xl text-left  w-2/3">
   Explore Milana for stylish, comfortable ladies' and kids' clothing. Our chic dresses, elegant ladieswear, and adorable kidswear are carefully selected to bring out the
    best in you and your little ones, perfect for any occasion.
@@ -19,13 +20,14 @@ const Banner = () => {
   
 
        </div>
-
+       
+{/* second banner */}
       <div style={{ backgroundImage: `url(${Bg2})` }}
-           className="ladies w-full min-h-screen bg-cover bg-center  flex items-center justify-start ">
+           className="ladies w-full min-h-screen bg-cover bg-center  flex items-center justify-end px-0 md:px-8">
 
- <div className="content flex flex-col gap-8 p-4 items-end text-[#083344]"> 
-  <span className="uppercase  text-3xl font-bold">Playful Perfection</span>
-  <span className=" italic text-6xl font-black">Style for Every Smile</span>
+ <div className="content flex flex-col gap-8 p-4 items-end text-[#083344] text-right"> 
+  <span className="mainheading">Playful Perfection</span>
+  <span className="subheading ">Style for Every Smile</span>
   <span className=" text-xl text-left e w-2/3">
  Dress your kids in fun and trendy outfits. 
  Our collection blends comfort with the latest trends, so your little ones can enjoy fashion that's as playful as they are.

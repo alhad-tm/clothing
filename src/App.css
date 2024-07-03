@@ -15,6 +15,7 @@
 body{
   background-color: rgb(255, 255, 255);
   color: rgb(65, 12, 163);
+  font-family: Inter;
 }
 
 
@@ -47,3 +48,12 @@ body{
   100% { opacity: 1; }
 }
 
+.mainheading{
+  @apply uppercase text-4xl md:text-3xl font-bold 
+}
+.subheading{
+  @apply italic text-4xl md:text-6xl font-black
+}
+.about-text{
+  @apply text-left text-sm md:text-xl leading-6
+}

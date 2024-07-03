@@ -77,7 +77,8 @@ const Header = () => {
     <div className={css.container}>
       {/* left */}
         <div className={css.left}>
-           <span className='font-bold uppercase'>Milana</span>
+        <Link to="banner" smooth={true}> <span className='font-bold uppercase cursor-pointer'>Milana</span></Link>  
+           
            
         </div>
 
@@ -91,7 +92,7 @@ const Header = () => {
         <ul className={css.rightlist} onClick={()=>setMenuOpened(false)}>
         {mobile? <div className={css.main}>
           <div className={css.m1}>
-          <span className='font-bold uppercase'>Milana</span>
+          <Link to="banner" smooth={true}> <span className='font-bold uppercase cursor-pointer'>Milana</span></Link> 
             </div>
           <div className={css.m2}> 
           <FontAwesomeIcon icon={ faTimes } />
@@ -99,7 +100,7 @@ const Header = () => {
            </div>:""}
                 <li><Link to="banner" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Home</Link></li>
                 <li><Link to="about" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>About Us</Link></li>
-                <li><Link to="contact" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Contact</Link></li>
+                <li><Link to="footer" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Contact</Link></li>
               
             </ul>)}
             </div>
